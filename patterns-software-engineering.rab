@@ -1,0 +1,218 @@
+= Patterns
+
+: subtitle
+   in Software Engineering
+: author
+   Giovanni Sakti
+: institution
+   Starqle
+% : content-source
+%    id_ruby
+% : date
+%    2017-11-01
+: theme
+   starqle
+
+= Patterns
+
+(('tag:center'))What is Patterns?
+
+== properties
+  : hide-title
+    true
+
+= Patterns
+
+  # blockquote
+  # title = Christopher Alexander
+  Each pattern describes a problem, which occurs over and over again in our environment and then desribes the core of the solution to that problem...
+
+= Patterns
+
+  # blockquote
+  # title = Christopher Alexander
+  ...in such a way that you can use this solution a million times over without ever doing it the same way twice.
+
+= Patterns
+
+(('tag:center'))Okay, but who is Christopher Alexander?
+
+== properties
+  : hide-title
+    true
+
+= Patterns
+
+(('tag:center'))Christopher Alexander is an ((*Architect*))
+
+== properties
+  : hide-title
+    true
+
+= Patterns
+
+(('tag:center'))He authored widely-influential book in 1977 entitled ((*"A Pattern Language: Towns, Buildings, Constructions"*))
+
+== properties
+  : hide-title
+    true
+
+= Patterns
+
+(('tag:center'))The book influences multiple disciplines including software engineering.
+
+== properties
+  : hide-title
+    true
+
+= Patterns
+
+(('tag:center'))So, what is patterns from the viewpoint of software engineering?
+
+== properties
+  : hide-title
+    true
+
+= Patterns
+
+(('tag:center'))Patterns are ((*Distilled commonalities*)) that you find in software.
+
+= Patterns
+
+(('tag:center'))It allows us to deconstruct a large complex structure and build using the pattern itself.
+
+= Patterns
+
+(('tag:center'))Patterns contain solution that have ((*developed*)) and ((*evolved*)) over time.
+
+= Patterns
+
+(('tag:center'))It is rarely designs that people tend to get initially.
+
+= Experienced Designer
+
+(('tag:center'))Designing software is ((*hard*)).
+
+== properties
+  : hide-title
+    true
+
+= Experienced Designer
+
+(('tag:center'))Designing software with reusable components are even ((*harder*)).
+
+== properties
+  : hide-title
+    true
+
+= Experienced Designer
+
+(('tag:center'))Your design should be ((*specific*)) to the problem at hand, but ((*general enough*)) to address future problems and requirements.
+
+== properties
+  : hide-title
+    true
+
+= Experienced Designer
+
+(('tag:center'))Reusable & flexible design is ((*difficult*)), if not ((*impossible*)), to get "right" the first time.\n\n Even for experienced designer.
+
+== properties
+  : hide-title
+    true
+
+= Experienced Designer
+
+(('tag:center'))Instead, experienced designer won't try to solve every problem from scratch.
+
+= Experienced Designer
+
+(('tag:center'))They will try to ((*reuse*)) existing solution instead.
+
+= Experienced Designer
+
+(('tag:center'))So, patterns help designer gets a design "right" ((*faster*)).
+
+= Patterns Categories
+
+(('tag:center'))Patterns Categories
+
+== properties
+  : hide-title
+    true
+
+= Patterns Categories
+
+(('tag:center'))There are several categories of patterns, based on the level in which they reside.
+
+= Patterns Categories
+
+From "lowest" level to "highest" level\n
+
+* Programming Paradigms
+* Design Patterns
+* Architectural Patterns
+
+= Programming Paradigms
+
+(('tag:center'))Programming paradigms, in a way, is a pattern.
+
+= Programming Paradigms
+
+(('tag:center'))To be precise, programming paradigms is the smallest and lowest level of patterns possible.
+
+= Programming Paradigms
+
+(('tag:center'))Programming paradigms are most likely to ((*influence*)) patterns that reside above it.
+
+= Programming Paradigms
+
+(('tag:center'))And because programming paradigms are ((*tightly coupled*)) to programming language..
+
+= Programming Paradigms
+
+(('tag:center'))..our pick of programming language may ((*influence*)) the way we design our software.
+
+= Design Patterns
+
+(('tag:center'))Design patterns are code-level commonalities.
+
+= Design Patterns
+
+(('tag:center'))Providing schemes for refining & building smaller subsystems.
+
+= Design Patterns
+
+(('tag:center'))Design patterns are ((*medium-scale tactics*)) that flesh out some of the structure & behaviour of entities and their relationships.
+
+= Design Patterns
+
+(('tag:center'))As we discuss previously, design patterns may be influenced by programming paradigms.
+
+= Design Patterns
+
+(('tag:center'))Some design patterns can be very important or pale to insignificance due to language that we use.
+
+= Architectural Patterns
+
+(('tag:center'))Architectural patterns on the other hand, are commonalities at higher level than design patterns.
+
+= Architectural Patterns
+
+(('tag:center'))Architectural patterns are high level strategies.
+
+= Architectural Patterns
+
+Architectural patterns concerns:
+
+* Large-scale components
+* Global properties
+* Mechanism of a system
+
+= Thanks
+
+(('tag:center'))Thanks!
+
+== properties
+  : hide-title
+    true
