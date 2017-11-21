@@ -133,6 +133,37 @@
 
 (('tag:center'))So, patterns help designer gets a design "right" ((*faster*)).
 
+= Benefit of Patterns
+
+(('tag:center'))Benefit of Patterns
+
+== properties
+  : hide-title
+    true
+
+= Benefit of Patterns
+
+(('tag:center'))Common design vocabulary
+
+= Benefit of Patterns
+
+(('tag:center'))Documentation and learning aid
+
+= Benefit of Patterns
+
+(('tag:center'))An adjunct to existing methods
+
+= Benefit of Patterns
+
+(('tag:center'))A target for refactoring
+
+= Benefit of Patterns
+
+* Common design vocabulary
+* Documentation and learning aid
+* An adjunct to existing methods
+* A target for refactoring
+
 = Patterns Essential Elements
 
 (('tag:center'))Patterns Essential Elements
@@ -350,6 +381,38 @@ Architectural patterns concerns:
 
 (('tag:center'))Consider what should be variable in your design
 
+= Anti-patterns
+
+(('tag:center'))Anti-patterns
+
+== properties
+  : hide-title
+    true
+
+= Anti-patterns
+
+(('tag:center'))There are also patterns that have negative consequences when it is present in our software
+
+= Anti-patterns
+
+(('tag:center'))It is called the ((*anti-patterns*))
+
+= Anti-patterns
+
+(('tag:center'))Anti-patterns are common response to a recurring problem that is usually ineffective and risks being highly counterproductive.
+
+= Anti-patterns
+
+(('tag:center'))Example: Big ball of mud
+
+= Big ball of mud
+
+(('tag:center'))Software system that lacks a perceivable architecture.
+
+= Big ball of mud
+
+(('tag:center'))Although undesirable from a software engineering PoV, such systems are common in practice due to business pressure, developers turnover and code entropy.
+
 = Thanks
 
 (('tag:center'))Thanks!
@@ -359,6 +422,9 @@ Architectural patterns concerns:
     true
 
 # Some extra notes
+
+# Art of creating patterns
+# To divide up many pieces of advice into relatively independent chunks so that you can refer to them and discuss them more or less separately
 
 # Some common causes of redesign:
 # - Creating an object by specifying a class explicitly
