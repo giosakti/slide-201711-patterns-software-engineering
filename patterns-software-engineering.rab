@@ -133,6 +133,35 @@
 
 (('tag:center'))So, patterns help designer gets a design "right" ((*faster*)).
 
+= Patterns Essential Elements
+
+(('tag:center'))Patterns Essential Elements
+
+== properties
+  : hide-title
+    true
+
+= Patterns Essential Elements
+
+An excellently documented patterns will have several elements attached to it.
+
+= Patterns Essential Elements
+
+* Name
+* Intent
+* Sketch
+
+= Patterns Essential Elements (cont'd)
+
+* Problem
+* Solution
+* Consequence(s)
+
+= Patterns Essential Elements (cont'd)
+
+* When to Use It
+* Example(s)
+
 = Patterns Categories
 
 (('tag:center'))Patterns Categories
@@ -209,6 +238,118 @@ Architectural patterns concerns:
 * Global properties
 * Mechanism of a system
 
+= Design Patterns Categories
+
+(('tag:center'))Design Patterns Categories
+
+== properties
+  : hide-title
+    true
+
+= Design Patterns Categories
+
+(('tag:center'))In arguably the most influential book on design patterns (The ((*GoF book*))),
+
+= Design Patterns Categories
+
+(('tag:center'))..the authors decided to categorize design patterns into three categories
+
+* Creational
+* Structural
+* Behavioral
+
+= Creational Patterns
+
+(('tag:center'))Creational patterns concern about object creation.
+
+= Creational Patterns
+
+(('tag:center'))It abstract the instantiation process.
+
+= Creational Patterns
+
+(('tag:center'))They help make a system independent on how its objects are created, composed and represented.
+
+= Creational Patterns
+
+(('tag:center'))Useful when creating objects with particular behaviour requires more than simply instantiation a class.
+
+= Creational Patterns
+
+(('tag:center'))Favour system that prefer to use object composition instead of class inheritance.
+
+= Creational Patterns
+
+(('tag:center'))Example: Abstract Factory
+
+= Abstract Factory
+
+(('tag:center'))Provide an interface for creating families of related or dependent objects without specifying their concrete class.
+
+= Structural Patterns
+
+(('tag:center'))Structural patterns deal with the compositions of classes or objects to form larger structures.
+
+= Structural Patterns
+
+(('tag:center'))Example: Adapter
+
+= Adapter
+
+(('tag:center'))Convert the interface of a class into another interface clients expect.
+
+= Adapter
+
+(('tag:center'))Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+= Behavioral Patterns
+
+(('tag:center'))Behavioral patterns characterize the way in which classes or objects interact and distribute responsibility.
+
+= Behavioral Patterns
+
+(('tag:center'))Not just patterns of classes and objects but also the patterns of communication between them.
+
+= Behavioral Patterns
+
+(('tag:center'))Example: Observer or Pub-Sub
+
+= Observer
+
+(('tag:center'))Define one-to-many dependency between objects so that when one object change state, all its dependents are notified and updated automatically.
+
+= Utilizing Patterns
+
+(('tag:center'))How to Utilize Patterns Properly?
+
+== properties
+  : hide-title
+    true
+
+= Utilizing Patterns
+
+(('tag:center'))Consider how patterns solve the problems
+
+= Utilizing Patterns
+
+(('tag:center'))Scan intent and sketch sections
+
+= Utilizing Patterns
+
+(('tag:center'))Study how patterns relate with each other
+
+= Utilizing Patterns
+
+(('tag:center'))Study patterns of like purpose
+
+= Utilizing Patterns
+
+(('tag:center'))Examine a cause of redesign
+
+= Utilizing Patterns
+
+(('tag:center'))Consider what should be variable in your design
+
 = Thanks
 
 (('tag:center'))Thanks!
@@ -216,3 +357,19 @@ Architectural patterns concerns:
 == properties
   : hide-title
     true
+
+# Some extra notes
+
+# Some common causes of redesign:
+# - Creating an object by specifying a class explicitly
+# - Dependence on specific operations
+# - Dependence on hardware or software platform
+# - Dependence on object representations or implementations
+# - Algorithmic dependencies
+# - Tight coupling
+# - Extending functionality by subclassing
+# - Inability to alter class conveniently
+
+# Patterns are sometimes embedded in framework:
+# - People who know the patterns gain insight into framework faster
+# - People who don't know get benefit from patterns that was enforced by the framework
