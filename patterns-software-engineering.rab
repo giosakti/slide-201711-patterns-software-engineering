@@ -25,7 +25,7 @@
 
   # blockquote
   # title = Christopher Alexander
-  Each pattern describes a problem, which occurs over and over again in our environment and then desribes the core of the solution to that problem...
+  Patterns describes a problem, which occurs over and over again in our environment and then desribes the core of the solution to that problem...
 
 = Patterns
 
@@ -43,6 +43,10 @@
 
 = Patterns
 
+  # image
+  # src = images/christopher_alexander.jpg
+  # keep_ratio = true
+  # width = 300
 (('tag:center'))Christopher Alexander is an ((*Architect*))
 
 == properties
@@ -51,7 +55,18 @@
 
 = Patterns
 
-(('tag:center'))He authored widely-influential book in 1977 entitled ((*"A Pattern Language: Towns, Buildings, Constructions"*))
+(('tag:center'))He authored widely-influential book in 1977.
+
+== properties
+  : hide-title
+    true
+
+= Patterns
+
+  # image
+  # src = images/a_pattern_language.jpg
+  # keep_ratio = true
+  # height = 400
 
 == properties
   : hide-title
@@ -75,7 +90,7 @@
 
 = Patterns
 
-(('tag:center'))Patterns are ((*Distilled commonalities*)) that you find in software.
+(('tag:center'))Patterns are ((*distilled commonalities*)) that you find in software.
 
 = Patterns
 
@@ -89,15 +104,15 @@
 
 (('tag:center'))It is rarely designs that people tend to get initially.
 
-= Experienced Designer
+= Reusability
 
-(('tag:center'))Designing software is ((*hard*)).
+(('tag:center'))We know that designing software is ((*hard*)).
 
 == properties
   : hide-title
     true
 
-= Experienced Designer
+= Reusability
 
 (('tag:center'))Designing software with reusable components are even ((*harder*)).
 
@@ -105,7 +120,7 @@
   : hide-title
     true
 
-= Experienced Designer
+= Reusability
 
 (('tag:center'))Your design should be ((*specific*)) to the problem at hand, but ((*general enough*)) to address future problems and requirements.
 
@@ -113,7 +128,7 @@
   : hide-title
     true
 
-= Experienced Designer
+= Reusability
 
 (('tag:center'))Reusable & flexible design is ((*difficult*)), if not ((*impossible*)), to get "right" the first time.\n\n Even for experienced designer.
 
@@ -121,43 +136,45 @@
   : hide-title
     true
 
-= Experienced Designer
+= Reusability
 
 (('tag:center'))Instead, experienced designer won't try to solve every problem from scratch.
 
-= Experienced Designer
+= Reusability
 
 (('tag:center'))They will try to ((*reuse*)) existing solution instead.
 
-= Experienced Designer
+= Reusability
 
 (('tag:center'))So, patterns help designer gets a design "right" ((*faster*)).
 
-= Benefit of Patterns
+= Expectations
 
-(('tag:center'))Benefit of Patterns
+(('tag:center'))What can learning patterns help you?
 
 == properties
   : hide-title
     true
 
-= Benefit of Patterns
+= Expectations
 
 (('tag:center'))Common design vocabulary
 
-= Benefit of Patterns
+= Expectations
 
 (('tag:center'))Documentation and learning aid
+# help in understanding complex system
 
-= Benefit of Patterns
+= Expectations
 
 (('tag:center'))An adjunct to existing methods
+# adjunct == supplementary
 
-= Benefit of Patterns
+= Expectations
 
 (('tag:center'))A target for refactoring
 
-= Benefit of Patterns
+= Expectations
 
 * Common design vocabulary
 * Documentation and learning aid
@@ -174,7 +191,11 @@
 
 = Patterns Essential Elements
 
-An excellently documented patterns will have several elements attached to it.
+(('tag:center'))An excellently documented patterns will have several elements attached to it.
+
+= Patterns Essential Elements
+
+(('tag:center'))Which you can use to learn more about them.
 
 = Patterns Essential Elements
 
@@ -203,7 +224,7 @@ An excellently documented patterns will have several elements attached to it.
 
 = Patterns Categories
 
-(('tag:center'))There are several categories of patterns, based on the level in which they reside.
+(('tag:center'))There are several categories of patterns, based on the ((*level*)) in which they reside.
 
 = Patterns Categories
 
@@ -213,13 +234,25 @@ From "lowest" level to "highest" level\n
 * Design Patterns
 * Architectural Patterns
 
+= Patterns Categories
+
+(('tag:center'))We'll try to discuss it one-by-one.
+
 = Programming Paradigms
 
-(('tag:center'))Programming paradigms, in a way, is a pattern.
+(('tag:center'))Programming paradigms
+
+== properties
+  : hide-title
+    true
 
 = Programming Paradigms
 
-(('tag:center'))To be precise, programming paradigms is the smallest and lowest level of patterns possible.
+(('tag:center'))Programming paradigms((-Such as: OO, Functional or Procedural-)), in a way, is a pattern.
+
+= Programming Paradigms
+
+(('tag:center'))To be precise, programming paradigms is the ((*smallest*)) and ((*lowest*)) level of patterns possible.
 
 = Programming Paradigms
 
@@ -235,6 +268,14 @@ From "lowest" level to "highest" level\n
 
 = Design Patterns
 
+(('tag:center'))Design Patterns
+
+== properties
+  : hide-title
+    true
+
+= Design Patterns
+
 (('tag:center'))Design patterns are code-level commonalities.
 
 = Design Patterns
@@ -247,19 +288,39 @@ From "lowest" level to "highest" level\n
 
 = Design Patterns
 
-(('tag:center'))As we discuss previously, design patterns may be influenced by programming paradigms.
+(('tag:center'))As we discuss previously, design patterns may be ((*influenced*)) by programming paradigms.
 
 = Design Patterns
 
-(('tag:center'))Some design patterns can be very important or pale to insignificance due to language that we use.
+(('tag:center'))Some design patterns can be very ((*important*)) or pale to ((*insignificance*)) due to language that we use.
+
+= Design Patterns
+
+(('tag:center'))Design patterns can be categorized further.
+
+= Design Patterns
+
+(('tag:center'))But first let us discuss about the last category of pattern.
+
+== properties
+  : hide-title
+    true
 
 = Architectural Patterns
 
-(('tag:center'))Architectural patterns on the other hand, are commonalities at higher level than design patterns.
+(('tag:center'))Architectural Patterns
+
+== properties
+  : hide-title
+    true
 
 = Architectural Patterns
 
-(('tag:center'))Architectural patterns are high level strategies.
+(('tag:center'))Architectural patterns on the other hand, are commonalities at ((*higher level*)) than design patterns.
+
+= Architectural Patterns
+
+(('tag:center'))Architectural patterns are ((*high level strategies*)).
 
 = Architectural Patterns
 
@@ -268,6 +329,33 @@ Architectural patterns concerns:
 * Large-scale components
 * Global properties
 * Mechanism of a system
+
+= Architectural Patterns
+
+(('tag:center'))One of the most well-known architectural pattern is the ((*MVC architecture*)).
+
+= MVC Architecture
+
+(('tag:center'))MVC intents are to promote efficient code reuse and parallel development.
+
+= MVC Architecture
+
+  # image
+  # src = images/mvc_sketch.png
+  # keep_ratio = true
+  # width = 550
+
+= MVC Architecture
+
+(('tag:center'))It tries to solve the problem of tightly-coupled relation between UI codes and logic that hinders reusability.
+
+= MVC Architecture
+
+(('tag:center'))It does so by separating codes into ((*three concerns*)): models, views and controllers.
+
+= MVC Architecture
+
+(('tag:center'))Notice that we already discuss about the name, intent, sketch, problem and solution provided by a pattern.
 
 = Design Patterns Categories
 
@@ -283,11 +371,26 @@ Architectural patterns concerns:
 
 = Design Patterns Categories
 
-(('tag:center'))..the authors decided to categorize design patterns into three categories
+  # image
+  # src = images/design_patterns_gof.jpg
+  # keep_ratio = true
+  # height = 400
+
+= Design Patterns Categories
+
+the authors categorize design patterns into three categories\n
 
 * Creational
 * Structural
-* Behavioral
+* Behavioural
+
+= Creational Patterns
+
+(('tag:center'))Creational Patterns
+
+== properties
+  : hide-title
+    true
 
 = Creational Patterns
 
@@ -295,19 +398,19 @@ Architectural patterns concerns:
 
 = Creational Patterns
 
-(('tag:center'))It abstract the instantiation process.
+(('tag:center'))It ((*abstract*)) the ((*instantiation*)) process.
 
 = Creational Patterns
 
-(('tag:center'))They help make a system independent on how its objects are created, composed and represented.
+(('tag:center'))They help make a system ((*independent*)) on how its objects are created, composed and represented.
 
 = Creational Patterns
 
-(('tag:center'))Useful when creating objects with particular behaviour requires more than simply instantiation a class.
+(('tag:center'))Useful when creating objects with particular behaviour ((*requires more*)) than simply instantiation a class.
 
 = Creational Patterns
 
-(('tag:center'))Favour system that prefer to use object composition instead of class inheritance.
+(('tag:center'))Favour system that prefer to use ((*object composition*)) instead of class inheritance.
 
 = Creational Patterns
 
@@ -317,9 +420,28 @@ Architectural patterns concerns:
 
 (('tag:center'))Provide an interface for creating families of related or dependent objects without specifying their concrete class.
 
+= Abstract Factory
+
+  # image
+  # src = images/abstract_factory.png
+  # keep_ratio = true
+  # width = 640
+
+== properties
+  : hide-title
+    true
+
 = Structural Patterns
 
-(('tag:center'))Structural patterns deal with the compositions of classes or objects to form larger structures.
+(('tag:center'))Structural Patterns
+
+== properties
+  : hide-title
+    true
+
+= Structural Patterns
+
+(('tag:center'))Structural patterns deal with the ((*compositions*)) of classes or objects to ((*form larger structures*)).
 
 = Structural Patterns
 
@@ -327,27 +449,65 @@ Architectural patterns concerns:
 
 = Adapter
 
-(('tag:center'))Convert the interface of a class into another interface clients expect.
+(('tag:center'))((*Convert the interface*)) of a class into another interface clients expect.
 
 = Adapter
 
-(('tag:center'))Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+(('tag:center'))Adapter lets classes ((*work together*)) that ((*couldn't otherwise*)) because of incompatible interfaces.
 
-= Behavioral Patterns
+= Adapter
 
-(('tag:center'))Behavioral patterns characterize the way in which classes or objects interact and distribute responsibility.
+  # image
+  # src = images/adapter_pattern.png
+  # keep_ratio = true
+  # width = 550
 
-= Behavioral Patterns
+== properties
+  : hide-title
+    true
 
-(('tag:center'))Not just patterns of classes and objects but also the patterns of communication between them.
+= Behavioural Patterns
 
-= Behavioral Patterns
+(('tag:center'))Behavioural Patterns
+
+== properties
+  : hide-title
+    true
+
+= Behavioural Patterns
+
+(('tag:center'))Behavioural patterns characterize the way in which classes or objects ((*interact*)) and ((*distribute responsibility*)).
+
+= Behavioural Patterns
+
+(('tag:center'))Not just patterns of classes and objects but also the patterns of ((*communication*)) between them.
+
+= Behavioural Patterns
 
 (('tag:center'))Example: Observer or Pub-Sub
 
 = Observer
 
-(('tag:center'))Define one-to-many dependency between objects so that when one object change state, all its dependents are notified and updated automatically.
+(('tag:center'))Define ((*one-to-many dependency*)) between objects.
+
+= Observer
+
+(('tag:center'))When one object change state, all its ((*dependents are notified*)) and updated automatically.
+
+= Observer
+
+  # image
+  # src = images/observer_pattern.png
+  # keep_ratio = true
+  # width = 720
+
+== properties
+  : hide-title
+    true
+
+= Design Patterns Categories
+
+(('tag:center'))There are no limits in defining design pattern categories, what we just discussed is just a (famous) example.
 
 = Utilizing Patterns
 
@@ -399,7 +559,7 @@ Architectural patterns concerns:
 
 = Anti-patterns
 
-(('tag:center'))Anti-patterns are common response to a recurring problem that is usually ineffective and risks being highly counterproductive.
+(('tag:center'))Anti-patterns are common response to a recurring problem that is usually ((*ineffective*)) and risks being highly ((*counterproductive*)).
 
 = Anti-patterns
 
@@ -407,11 +567,15 @@ Architectural patterns concerns:
 
 = Big ball of mud
 
-(('tag:center'))Software system that lacks a perceivable architecture.
+(('tag:center'))Software system that ((*lacks*)) a perceivable ((*architecture*)).
 
 = Big ball of mud
 
-(('tag:center'))Although undesirable from a software engineering PoV, such systems are common in practice due to business pressure, developers turnover and code entropy.
+(('tag:center'))Although undesirable from a software engineering PoV, such systems are common in practice. 
+
+= Big ball of mud
+
+(('tag:center'))Due to business pressure, developers turnover and code entropy.
 
 = Thanks
 
